@@ -2,9 +2,13 @@
 
 Family of modular split keyboards with 38 or 40 keys, LCD display and Cirque/Azoteq trackpad.
 
+> [!NOTE]
+> One stront40 is [available for purchase](https://www.reddit.com/r/mechmarket/comments/1fwzixb/eupl_h_duet_stront40_custom_ergo_keyboards_w/) right now
+
 ## Features
 
 All versions:
+
 - Hotswap sockets
 - LCD display (1.69" 240x280 by default)
 - Cirque or Azoteq (with VIK adapter) trackpad
@@ -12,15 +16,15 @@ All versions:
 - 3D printed cases
 - exposed SPI/I2C contacts, so any other device can be used instead, it's just a matter of changing the case
 
-|                                                    | MX-40              | MX-38              | Choc               |
-| -------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| Number of keys                                     | 40                 | 38                 | 38                 |
-| Supported switches                                 | MX/KS<sup>[1]</sup>| MX/KS<sup>[1]</sup>| Choc v1            |
-| Interconnect                                       | USB-C              | USB-C/TRRS         | USB-C/TRRS         |
-| Interconnect                                       | USB-C              | USB-C/TRRS         | USB-C/TRRS         |
-| [VIK](https://github.com/sadekbaroudi/vik) support | :heavy_check_mark: | :heavy_check_mark: | :x:                |
-| Module system                                      | :heavy_check_mark: | :heavy_check_mark: | :x:                |
-| Splay                                              | :x:                | :x:                | :heavy_check_mark: |
+|                                                    | MX-40               | MX-38               | Choc               |
+| -------------------------------------------------- | ------------------- | ------------------- | ------------------ |
+| Number of keys                                     | 40                  | 38                  | 38                 |
+| Supported switches                                 | MX/KS<sup>[1]</sup> | MX/KS<sup>[1]</sup> | Choc v1            |
+| Interconnect                                       | USB-C               | USB-C/TRRS          | USB-C/TRRS         |
+| Interconnect                                       | USB-C               | USB-C/TRRS          | USB-C/TRRS         |
+| [VIK](https://github.com/sadekbaroudi/vik) support | :heavy_check_mark:  | :heavy_check_mark:  | :x:                |
+| Module system                                      | :heavy_check_mark:  | :heavy_check_mark:  | :x:                |
+| Splay                                              | :x:                 | :x:                 | :heavy_check_mark: |
 
 **[1]**: KS-33/KS-27 - Gateron Low Profile switches, not compatible with MX footprint and require special hotswap sockets
 
@@ -71,6 +75,7 @@ Please see main `config.h` and `rules.mk` for comments and available options.
 - [pre-compiled files](https://github.com/zzeneg/vial-qmk/releases/tag/zzeneg)
 
 #### Compiled versions
+
 > Each firmware name has two modules, first is on the left side, second on the right, e.g. if your keyboard has Azoteq on the left and round display on the right - choose `azoteq-round`
 
 - keymaps:
